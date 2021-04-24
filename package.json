@@ -1,9 +1,9 @@
 {
-  "name": "turbo-console-log",
+  "name": "luizdopc-turbo-console-log",
   "displayName": "Turbo Console Log",
   "description": "Automating the process of writing meaningful log messages.",
   "version": "2.1.6",
-  "publisher": "ChakrounAnas",
+  "publisher": "LuizDoPc",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -113,7 +113,7 @@
   },
   "scripts": {
     "vscode:prepublish": "yarn run compile",
-    "compile": "tsc -p ./ && mkdir -p out/test/files/js && cp -r src/test/files/js out/test/files",
+    "compile": "tsc -p ./",
     "lint": "eslint src --ext ts",
     "watch": "tsc -watch -p ./",
     "pretest": "yarn run compile && yarn run lint",
